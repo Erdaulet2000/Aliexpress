@@ -1,0 +1,31 @@
+{
+  "order": [{
+      "id": "1",
+      "customerName": "Erdaulet",
+      "productName": "Macbook Pro",
+      "price": "2000",
+      "rating": "5"
+    },
+    {
+      "id": "2",
+      "customerName": "Bekzat",
+      "productName": "IPhone 12Pro",
+      "price": "1000",
+      "rating": "3"
+    },
+    {
+      "id": "3",
+      "customerName": "Nurbol",
+      "productName": "Acer Nitro 5",
+      "price": "700",
+      "rating": "3"
+    },
+    {
+      "id": "4",
+      "customerName": "Raho",
+      "productName": "Air Pods2",
+      "price": "200",
+      "rating": "4"
+    }
+  ]
+}

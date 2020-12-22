@@ -1,0 +1,19 @@
+<div class="container md">
+  <br>
+<table class="table table-bordered">
+  <tr class="table-danger">
+    <th>Id</th>
+    <th>Customer name</th>
+    <th>Product Name</th>
+    <th>Price</th>
+    <th>Rating</th>
+  </tr>
+  <tr *ngFor="let basket of baskets">
+    <td><a [routerLink]="['/basket', basket.id]">{{basket.id}}</a></td>
+    <td>{{basket.customerName| uppercase}}</td>
+    <td>{{basket.productName| uppercase}}</td>
+    <td>{{basket.price | currency}}</td>
+    <td>{{basket.rating | age}} </td>
+  </tr>
+</table>
+</div>
